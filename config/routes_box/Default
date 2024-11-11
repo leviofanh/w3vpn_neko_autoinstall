@@ -1,0 +1,11 @@
+{
+    "custom": "{\"rules\": []}",
+    "def_outbound": "bypass",
+    "direct_dns": "localhost",
+    "dns_final_out": "proxy",
+    "dns_routing": true,
+    "proxy_domain": "domain:discord.com\ndomain:discord.gg\ndomain:discord.fr\ndomain:discord.app\ndomain:discord.co\ndomain:discord.dev\ndomain:discord.new\ndomain:discord.gift\ndomain:discord.gifts\ndomain:discord.media\ndomain:discord.design\ndomain:discord.store\ndomain:discord.tools\ndomain:dis.gd\ndomain:discordapp.net\ndomain:discordapp.com\ndomain:discordapp.io\ndomain:discordcdn.com\ndomain:discordstatus.com\ndomain:discordsays.com\ndomain:discordsez.com\ndomain:discordmerch.com\ndomain:discordpartygames.com\ndomain:discord-activities.com\ndomain:discordactivities.com\ndomain:discord-attachments-uploads-prd.storage.googleapis.com\ndomain:watchanimeattheoffice.com,\ndomain:bigbeans.solutions\ndomain:airhornbot.com\ndomain:airhorn.solutions\ndomain:cp.cloudflare.com\ndomain:ipwho.is\ndomain:whatismyipaddress.com\ndomain:articy.com\ndomain:cachefly.cachefly.net",
+    "remote_dns": "https://8.8.8.8/dns-query",
+    "sniffing_mode": 1,
+    "use_dns_object": false
+}
