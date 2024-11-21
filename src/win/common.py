@@ -14,6 +14,7 @@ DESKTOP_DIR = Path(os.path.join(os.environ["USERPROFILE"], "Desktop"))
 START_MENU_DIR = Path(os.path.join(os.environ["APPDATA"], "Microsoft/Windows/Start Menu/Programs"))
 REPO_MAIN = "MatsuriDayo/nekoray"
 REPO_CONFIG = "leviofanh/w3vpn_neko_autoinstall"
+CONFIG_BRANCH = "block-rf"
 TASK_NAME = "NekoBoxAutostart"
 PROCESS_NAME = "nekoray.exe"
 

@@ -8,7 +8,7 @@ from src.win.common import *
 
 def download_routes_file(repo):
     try:
-        url = f"https://raw.githubusercontent.com/{repo}/main/config/routes_box/Default"
+        url = f"https://raw.githubusercontent.com/{repo}/{CONFIG_BRANCH}/config/routes_box/Default"
         logging.info(f"Загрузка правил маршрутизации с {url}")
         response = requests.get(url)
         response.raise_for_status()

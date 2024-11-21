@@ -242,7 +242,7 @@ def install():
                 for item in temp_path.iterdir():
                     shutil.move(str(item), str(INSTALL_DIR))
 
-        config_url = f"https://github.com/{REPO_CONFIG}/archive/refs/heads/main.zip"
+        config_url = f"https://github.com/{REPO_CONFIG}/archive/refs/heads/{CONFIG_BRANCH}.zip"
         config_zip_path = INSTALL_DIR / "config.zip"
         download_file(config_url, config_zip_path)
 
