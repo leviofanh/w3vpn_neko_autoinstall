@@ -16,7 +16,7 @@ REPO_MAIN = "MatsuriDayo/nekoray"
 REPO_CONFIG = "leviofanh/w3vpn_neko_autoinstall"
 CONFIG_BRANCH = "block-rf"
 TASK_NAME = "NekoBoxAutostart"
-PROCESS_NAME = "nekoray.exe"
+PROCESS_NAME = "nekobox.exe"
 
 
 def is_admin():
@@ -28,7 +28,7 @@ def is_admin():
 
 def kill_all_related_processes():
     try:
-        process_names = [PROCESS_NAME, "nekoray.exe", "nekoray_core.exe"]
+        process_names = [PROCESS_NAME, "nekoray.exe", "nekoray_core.exe", "nekobox.exe", "nekobox_core.exe"]
 
         killed = False
         for proc in psutil.process_iter(['pid', 'name']):
