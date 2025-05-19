@@ -16,7 +16,7 @@ REPO_MAIN = "MatsuriDayo/nekoray"
 REPO_CONFIG = "leviofanh/w3vpn_neko_autoinstall"
 CONFIG_BRANCH = "block-rf"
 TASK_NAME = "NekoBoxAutostart"
-PROCESS_NAME = "nekobox.exe"
+PROCESS_NAME = "nekoray.exe"
 
 
 def is_admin():

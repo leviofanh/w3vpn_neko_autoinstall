@@ -106,7 +106,7 @@ def download_file(url, dest_path):
 
 def find_latest_release(repo):
     logging.info(f"Установка последней версии nekobox {repo}")
-    url = f"https://api.github.com/repos/{repo}/releases/latest"
+    url = f"https://api.github.com/repos/{repo}/releases/tags/3.26"
     response = requests.get(url)
     response.raise_for_status()
     release_data = response.json()
